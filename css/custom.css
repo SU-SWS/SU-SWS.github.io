@@ -10,6 +10,20 @@
   width: 750px;
 }
 
+ul.horizontal-list {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.horizontal-list li {
+  float: left;
+  width: 220px;
+  margin-left: 27px;
+}
+
 @media only screen and (max-width: 640px) {
 /* Insert your mobile styles here */
 }
